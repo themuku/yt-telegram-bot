@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 from pytube import YouTube
 
-TOKEN: Final = "7426971938:AAEHyUM94loJbJOt4Eu4WwPWFRhS2AmNYyw"
+TOKEN: Final = "Token from BotFather"
 
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
